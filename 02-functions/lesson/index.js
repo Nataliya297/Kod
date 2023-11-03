@@ -69,3 +69,4 @@ checkHealth(100);
 checkHealth(75);
 checkHealth(50);
 checkHealth(0);
+checkHealth(150);
