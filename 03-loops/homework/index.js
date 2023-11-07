@@ -34,3 +34,5 @@ for (counter = 1; counter <= 100; counter++) {
   res1 += counter;
 }
 console.log(`Итого: ${res1}`);
+
+console.log('Test');
