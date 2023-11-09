@@ -137,4 +137,4 @@ console.log(user2.join(", "));
 
 console.log(user2.includes('jane'));// false
 console.log(user2.includes('number'));//true
-
+console.log(user2.includes('city'));//true
