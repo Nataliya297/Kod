@@ -63,7 +63,7 @@ console.log(`Результат равен: ${res}`);
 let calcResult = 0; //создаем хранилище общего результата вычислений калькулятора
 //ф-я сумирования - это ф-я суммы 2-х значений
 console.log("### Калькулятор");
-const result = (number1, number2) => {
+const sum = (number1, number2) => {
   const result = number1 + number2;
   console.log(`${number1}+${number2}=${result}`);
   return result;
@@ -86,8 +86,8 @@ const divide = (number1, number2) => {
     console.log(`${number1}/${number2}=${result}`);
     return result;
   };
-calcResult = result(1, 4);
-calcResult = result(calcResult, 100);
+calcResult = sum(1, 4);
+calcResult = sum(calcResult, 100);
 calcResult = minus(calcResult, 4);
 calcResult = minus(calcResult, 50);
 calcResult = multiply(calcResult, 2);
